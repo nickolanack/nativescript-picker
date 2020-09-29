@@ -3,8 +3,8 @@ import { Observable, EventData, ObservableArray, ChangedData, ActionItem,
     View, TextField, Template, GestureEventData, Frame, ShowModalOptions,
     isAndroid, GridLayout, Page, ShownModallyData, Color} from '@nativescript/core';
 
-
-import { Property, booleanConverter, CSSType} from "@nativescript/core/ui/core/view";
+import { booleanConverter} from "@nativescript/core/ui/core/view-base";
+import { Property, CSSType} from "@nativescript/core/ui/core/view";
 import { fromObject } from "@nativescript/core/data/observable";
 import { addWeakEventListener, removeWeakEventListener } from "@nativescript/core/ui/core/weak-event-listener";
 
